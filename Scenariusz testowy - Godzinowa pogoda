@@ -1,0 +1,50 @@
+Scenariusz testowy - godzinowa pogoda 
+
+Tytuł: Wykresy na ekranie pogody godzinowej
+Środowisko: Android 5 i wyższy
+Wersja: 1.0.1
+Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Uruchom aplikację 
+2. Wybierz zakładkę "Godzinowa", która znajduje się na dole ekranu 
+3. Naciśnij "Wybierz"
+4. Wybierz dzień z kalendarza, dla którego chcesz wyświetlić dane 
+5. Naciśnij "OK" na dole ekranu 
+Oczekiwany rezultat: Po wybraniu danego dnia z kalendarza wyświetlą się wykresy pokazujące szczegóły pogody z tego dnia.
+Warunki końcowe: Wykresy wyświetlają się.
+
+Tytuł: Ekran startowy pogody godzinowej
+Środowisko: Android 5 i wyższy 
+Wersja: 1.0.1
+Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Uruchom aplikację 
+2. Wybierz zakładkę "Godzinowa", która znajduje się na dole ekranu 
+
+Oczekiwany rezultat: Po wybraniu zakładki "Godzinowa" wyświetli się ekran startowy pogody godzinowej.
+Warunki końcowe: Ekran startowy pogody godzinowej wyświetla się.
+
+Tytuł: Toolbar po załadowaniu wykresów na ekranie pogody godzinowej
+Środowisko: Android 5 i wyższy 
+Wersja: 1.0.1
+Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Uruchom aplikację 
+2. Wybierz zakładkę "Godzinowa", która znajduje się na dole ekranu 
+3. Naciśnij "Wybierz"
+4. Wybierz dzień z kalendarza, dla którego chcesz wyświetlić dane 
+5. Naciśnij "OK" na dole ekranu 
+Oczekiwany rezultat: Po wybraniu danego dnia z kalendarza wyświetli się toolbar wraz z wykresami pogody z danego dnia.
+Warunki końcowe: Widać toolbar
+
+Tytuł: Obsługa błędów na ekranie aktualnej pogody
+Środowisko: Android 5 i wyższy 
+Wersja: 1.0.1
+Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa", wyczyszczone dane w pamięci aplikacji, wyłączone dane komórkowe i wi-fi w telefonie 
+Kroki reprodukcji:
+1. Wyczyść dane aplikacji
+2. Wyłącz wi-fi oraz dane komórkowe 
+3. Uruchom aplikację 
+4. Wybierz zakładkę "Godzinowa" znajdującą się na dole ekranu 
+Oczekiwany rezultat: Po przejściu do zakładki "Godzinowa" wyświetli się ekran z błędem.
+Warunki końcowe: Pokazuje się ekran z błędem.
