@@ -10,6 +10,7 @@ Kroki reprodukcji:
 Oczekiwany rezultat: Po kliknięciu w zakładkę "Aktualna" wyświetli się ekran pogody aktualnej aplikacji. 
 Warunki końcowe: Widoczne karty na ekranie pogody aktualnej 
 
+
 Tytuł: Widok toolbara
 Środowisko: Android 5 i wyższy 
 Wersja: 1.0.1
@@ -20,13 +21,14 @@ Kroki reprodukcji:
 Oczekiwany rezultat: Po kliknięciu w zakładkę "Aktualna" wyświetli się ekran pogody aktualnej aplikacji wraz z toolbarem aplikacji.
 Warunki końcowe: Widoczny toolbar na ekranie pogody aktualnej 
 
+
 Tytuł: Obsługa błędów na ekranie aktualnej pogody
 Środowisko: Android 5 i wyższy
 Wersja: 1.0.1
 Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa", wyczyszczone dane w pamięci aplikacji, wyłączony Internet w telefonie 
 Kroki reprodukcji:
-1.  Wyczyść dane aplikacji
-2.  Wyłącz wi-fi oraz dane komórkowe 
-3.  Uruchom aplikację 
+1. Wyczyść dane aplikacji
+2. Wyłącz wi-fi oraz dane komórkowe 
+3. Uruchom aplikację 
 Oczekiwany rezultat: Po uruchomieniu aplikacji wyświetli się ekran z błędem.
 Warunki końcowe: Pokazuje się ekran z błędem.
