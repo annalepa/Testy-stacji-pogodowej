@@ -1,0 +1,47 @@
+Scenariusz testowy - konfiguracja aplikacji 
+
+Tytuł: Ustawienie nazwy aplikacji dla języka polskiego i angielskiego 
+Środowisko: testowe 
+Wersja: 1.0.1
+Warunek początkowy: Telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Wejdź w ustawienia telefonu
+2. Kliknij "Zarządzanie ogólne"
+3. Wybierz "Język"
+4. Zaznacz "English (United Kingdom)"
+5. Naciśnij "Zastosuj"
+Oczekiwany rezultat: Po zmianie języka nazwa aplikacji zostanie zmieniona zgodnie z wytycznymi z dokumentacji 
+Warunki końcowe: Aplikacja ma prawidłową nazwę zarówno w języku polskim jak i angielskim 
+
+
+Tytuł: Dodanie ikony aplikacji
+Środowisko: Android 5 i wyższy
+Wersja: 1.0.1
+Warunek początkowy: Telefon pozwalający na zmianę kształtu ikon 
+Kroki reprodukcji:
+1. Wejdź w ustawienia telefonu.
+2. Kliknij "Motywy"
+3. Kliknij "Ikony" 
+4. Wybierz kształt ikony
+Oczekiwany rezultat: Po wyborze kształtu, zostanie on zmieniony i będzie wyglądać prawidłowo.
+Warunki końcowe: Kształt ikony aplikacji zmieniony.
+
+
+Tytuł: Dodanie splash screena
+Środowisko: Android 5 i wyższy 
+Wersja: 1.0.1
+Warunek początkowy: Telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Uruchom aplikację "Stacja pogodowa"
+Oczekiwany rezultat: Po uruchomieniu aplikacji wyświetli się splash screen.
+Warunki końcowe: Splash screen dodany
+
+
+Tytuł: Opcja podglądu wysyłanych zapytań do serwera
+Środowisko: Android 5 i wyższy
+Wersja: 1.0.1
+Warunki początkowe: telefon z zainstalowaną aplikacją "Stacja pogodowa"
+Kroki reprodukcji:
+1. Uruchom aplikację "Stacja pogodowa" 
+Oczekiwany rezultat: Po uruchomieniu aplikacji widoczna będzie "chmurka". Po kliknięciu na nią będziemy mieć dostęp do podglądu wysyłanych zapytań do serwera.
+Warunki końcowe: Wyświetla się opcja podglądu wysłanych zapytań do serwera.
